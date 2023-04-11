@@ -1,0 +1,110 @@
+/* DOCUMENTO CSS*/
+
+body{
+	margin:0;
+	padding:0;
+	border:0 ;
+	font-family: 'Calibri', sans-serif;
+	background-color: #ede9e4;
+	color: #000000;
+}
+header {
+	background-color:#EFEDEA ;
+	height: 250px;
+	padding-top:15px ;
+	text-align: center;
+	
+
+}
+header h1 {
+font-family: 'Khand', sans-serif;
+}
+
+header figure{
+	
+
+	margin: 0;
+	padding: 0;
+}
+main{
+	min-height: 900px;
+	margin: 0;
+	padding: 0;
+	display: inline-flex;
+	justify-content: center;
+	padding:20px;
+	flex-wrap: wrap;
+	background-color:#D6D4D2;
+}
+.boxlivro {
+	width: 450px;
+	height: 250px;
+	background-color: #BDBBB9;
+
+	border-radius:10px;
+	padding:10px;
+	margin:10px 10px 10px 50px;
+	display: flex;
+}
+.boxlivro:hover{
+	box-shadow: 6px 6px 10px #a4a4a4;
+}
+.boxlivro h2{
+	margin:0 0 10px 0;
+
+}
+.boxlivro figure {width: 200px;
+height: 250px;
+/*background-color: #e6e6e6;*/
+margin: 0 20px 0 0;
+padding: 0;
+/*border: 1px solid black;*/
+}
+.boxlivro figure img{
+	height: 250px;
+}
+.boxlivro p{
+
+
+}
+.boxlivro span {
+	font-size: 30px;
+	font-weight: 900;
+	margin: 0 0 0 40px;
+	padding:0;
+}
+.boxlivro button{
+	text-align: center;
+
+}
+footer{
+	background-color: #EFEDEA;
+	height:  70px;
+	padding-top: 10px;
+	text-align: center;
+	display: flex;
+	justify-content:center;
+}
+footer figure{
+	width: 50px ;
+	height: 50px;
+	background-color: #696969;
+	margin: 0 30px 0 50px ;
+	padding: 0 ;
+}
+footer p {
+	font-weight: 800;
+	font-size:20px;
+	margin: 10px 0 0 0;
+	font-family: 'Khand', sans-serif;
+}
+button {
+	width: 100px;
+	height: 40px;
+	background-color:;
+	color: ;
+	font-weight: 800;
+	border-radius:10px;
+
+}
+
